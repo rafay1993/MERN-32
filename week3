@@ -1,0 +1,46 @@
+// const array =[1,5,9,7,2];
+// const sortedArray = array.sort((a,b)=> a - b);
+// console.log(sortedArray);
+
+// const array1 =[1,5,9,7,2];
+// const sortedArray1 = array1.sort((a,b)=>  b-a);
+// console.log(sortedArray1);
+
+// const array =[1,5,9,7,2];
+// array.pop();
+// array.pop();
+// array.shift();
+// array.shift();
+// console.log(array);
+
+
+// const array =[1,5,9,7,6,4,2];
+// const [first, , ...restArray] = array;
+// console.log(restArray);
+
+const objt ={ 
+name:"Basit",
+password:"*****",
+email:"mtrsjssgt",
+firstname:"basit",
+lastname:"Ali",   
+}
+const{password,email,...restOftheObjt}=objt;
+console.log(restOftheObjt);
+
+
+
+// const names =["papper","nat","tabish","Tabish"];
+// const sorted = names.sort();
+// console.log(sorted);
+
+// const names =["papper","nat","tabish","Tabish"];
+// const sorted = names.sort((a, b)=>a.localeCompare (b));
+// console.log(sorted);
+
+// const names =["papper","nat","tabish","Tabish"];
+// const sorted = names.sort((a, b)=>b.localeCompare (a));
+// console.log(sorted);
+
+const names =["papper","nat","tabish","Tabish"];
+console.log("ali");
